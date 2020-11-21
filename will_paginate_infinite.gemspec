@@ -1,10 +1,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'version'
 Gem::Specification.new do |s|
   s.name        = 'will_paginate_infinite'
-  s.version     = '0.1.4'
-  s.date        = '2018-09-21'
+  s.version     = '0.1.5'
+  s.date        = '2020-11-21'
   s.summary     = "Will Paginate with infinite scroll"
   s.description = "Will Paginate with infinite scroll"
   s.authors     = ["Adriano Godoy"]
